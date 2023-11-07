@@ -1,5 +1,6 @@
 # ttt
-```graph TD;
+``` mermaid
+graph TD;
 A[Java Code] -->|Compiled| B(Bytecode)
 B --> C{Run}
 C -->|bytecode| D[Windows JVM] 
